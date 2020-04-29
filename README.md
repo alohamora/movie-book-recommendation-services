@@ -1,5 +1,5 @@
 # SE-project
-A movie and book recommendation website with collaborative filtering
+A movie and book recommendation website with collaborative filtering which generates recommendations based on user's rating in both the domains(movies and books)
 
 # Installation instructions
 ## backend
@@ -7,6 +7,10 @@ A movie and book recommendation website with collaborative filtering
 - Install maven: `sudo apt install maven`
 - Set `JAVA_HOME` by adding the following command in `.bashrc` file  : `export JAVA_HOME="/usr/lib/jvm/java-1.8.0-openjdk-amd64"`
 - Restart the terminal after installation
+
+## frontend
+- Go into my-app directory: `cd frontend/my-app`
+- run `npm install`
 
 # Running instructions
 ## backend
@@ -16,5 +20,8 @@ A movie and book recommendation website with collaborative filtering
 - Go into eureka service directory: `cd eureka-service`
 - Start eureka service: `mvn spring-boot:run`
 - Start all other services similarly
+- <b>NOTE</b> - Start the config service first, then eureka service and then all other services
 
-### NOTE - Start the config service first, then eureka service and then all other services
+## frontend
+- Go into my-app directory: `cd frontend/my-app`
+- run: `npm start`

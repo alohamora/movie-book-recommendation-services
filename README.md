@@ -1,4 +1,4 @@
-# SE-project
+# movie-book-recommendation-services
 A movie and book recommendation website with collaborative filtering which generates recommendations based on user's rating in both the domains(movies and books)
 
 # Installation instructions
